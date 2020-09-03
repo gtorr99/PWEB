@@ -1,9 +1,226 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet">
+	<title>Segurança na Web</title>
+
 </head>
 <body>
+
+	<div id="capa">
+		
+		<div id="logo">
+			<img src="Logo_Fatec.jpg">
+		</div>
+		
+		<h3>Faculdade de Tecnologia de Sorocaba</h3>
+		<h3>Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+
+		<h1 id="title">Segurança na Web</h1>
+
+		<h3 class="profDados">Prof.ª Denilce de Almeida Oliveira Veloso</h3>
+		<h3 class="profDados">Disciplina</b> Programação Web</h3>
+
+		<h3 class="aluno">Gabriel Torres Guimarães 0030481823019</h3>
+
+		<h3 class="data">Sorocaba</h3>
+		<h3 class="data">Agosto/2020</h3>
+
+	</div>
+
+	<div id="indice">
+		<h2>Índice</h2>
+		<dl>
+			<a href="#introducao">
+				<dt>1.Introdução</dt>
+			</a>
+			<a href="#segurancaWeb">
+				<dt>2. Segurança na Web</dt>
+			</a>
+			<a href="#tipoAtaque">
+				<dd>2.1. Tipos de Ataque</dd>
+			</a>
+			<a href="#mecanismosSeguranca">
+				<dd>2.2. Mecanismos de Segurança</dd>
+			</a>
+			<a href="#conclusao">
+				<dt>3. Conclusão</dt>
+			</a>
+			<a href="#referencias">
+				<dt>4. Referências</dt>
+			</a>
+		</dl>
+	</div>
+
+	<hr>
+
+	<div id="introducao">
+
+		<h2>1. Introdução</h2>
+
+		<p>
+			A Internet proporciona a conexão entre bilhões de computadores ao redor do 
+			mundo, permitindo, assim, o compartilhament de informações. 
+			Utilizando o recurso da Web para acessar essa rede, pode-se fazer inúmeras 
+			atividades, como pesquisas, troca de mensagens e, na última década, 
+			as compras e os pagamentos online têm se intensificado. 
+			Com base nesse contexto, a preocupação com a segurança na Web tem se tornado 
+			também cada vez maior.
+		<p>
+		<p>
+			Neste trabalho serão englobados alguns métodos de ataque e mecanismos que 
+			os desenvolvedores e usuários podem utilizar para se proteger.
+		</p>
+
+	</div>
+
+	<hr>
+
+	<div id="segurancaWeb">
+		<h2>2.	SEGURANÇA NA WEB</h2>
+
+		<p>
+			Conforme a Web foi evoluindo e sendo cada vez mais utilizada, 
+			para a realização de inúmeras tarefas, praticamente para cada uma delas 
+			foi desenvolvida uma forma de ataque aos dados, principalmente aos financeiros.
+		</p>
+		<p>
+			A seguir, são listados algumas formas criadas de ataque na Web e, 
+			na sequência alguns mecanismos de proteção.
+		</p>
+
+	</div>
+
+	<hr>
+
+	<div id="tipoAtaque">
+		<h2>2.1. Tipos de Ataque</h2>
+
+		<p>
+			Existem diversos tipos de ataque desenvolvidos para afetar os usuários 
+			navegando na Web, conforme descrito abaixo:
+		</p>
+
+		<ul>
+			<li>
+				<b>Fraude de antecipação de recursos:</b> solicitado o pagamento urgente
+				 e sigiloso de uma enorme quantia de dinheiro para depois ser recompensado
+				 com uma ainda maior. Ou ainda, é solicitado seus dados bancários para ser 
+				 recompensado de alguma forma por alguém desconhecido.
+			</li>
+			<li>
+				<b>Phishing:</b> atraem a atenção do usuário, se passando por algum órgão 
+				conhecido ou um anúncio interessante.
+			</li>
+			<li>
+				<b>Pharmig:</b> redirecionar a navegação para sites falsos, por meio de 
+				alterações no serviço de DNS(Domain Name System).
+			</li>
+			<li>
+				<b>Malware:</b> códigos maliciosos programados especificamente para executar 
+				ações prejudiciais ao computador infectado.
+			</li>
+			<li>
+				<b>	Worm:</b> programa que se propaga automaticamente pela rede, 
+				infectando outras máquinas por meio de cópias executáveis.
+			</li>
+			<li>
+				<b>Spyware:</b> projetado para espionar as atividades realizadas 
+				no sistema. Usado para capturar dados inseridos na máquina.
+			</li>
+			<li>
+				<b>Cavalo de Troia:</b> advindos de “benefícios” na internet que 
+				parecem interessantes, mas, após baixados, executam ações maliciosas 
+				na máquina, podendo desde liberar o acesso da máquina à invasores até 
+				apagar todos os dados e arquivos.
+			</li>
+			<li>
+				<b>Spam:</b> emails não desejados contendo arquivos ou links que podem 
+				conter vírus.
+			</li>
+			<li>
+				<b>Brutal force:</b> tentativas automatizadas de acesso à uma página 
+				de login utilizando senhas comuns.
+			</li>
+		</ul>
+
+	</div>
+
+	<hr>
+
+	<div id="mecanismosSeguranca">
+		<h2>2.2. Mecanismos de Segurança</h2>
+
+		<p>
+			Alguns mecanismos de segurança devem ser aplicados, tanto por parte dos 
+			desenvolvedores de sites e aplicações web, quanto pelos usuários. 
+			Estes são ainda os maiores alvos de ataques, visto que estão mais vulneráveis, 
+			seja em decorrência do desconhecimento dos métodos, seja por descuido com a 
+			segurança de seus computadores.
+		</p>
+		<p>
+			Mecanismos de segurança por parte dos provedores dos sites / aplicativos:
+		</p>
+
+		<ul>
+			<li>
+				Autenticação (de preferência em dois passos) que permita a validação do usuário que solicitou o acesso.
+			</li>
+			<li>
+				Sigilo de dados: proteger informações contra acessos não autorizados.
+			</li>
+			<li>
+				Autorização: camadas de acessos e permissões que os diferentes tipos de usuários podem acessar.
+			</li>
+			<li>
+				Aplicação de criptografia para senhas, contas e dados sensíveis nos servidores.
+			</li>
+		</ul>
+		
+		<p>
+				Mecanismos por parte dos usuários:
+		</p>
+
+		<ul>
+			<li>
+				Criar senhas fortes, com caracteres diversificados, números não sequenciais e caracteres especiais.
+			</li>
+			<li>
+				Verificar todas as informações, anexos e links que são enviados antes de baixá-los / executá-los.
+			</li>
+			<li>
+				Não fornecer informações para sites ou pessoas desconhecidas.
+			</li>
+		</ul>
+
+	</div>
+
+	<hr>
+
+	<div id="conclusao">
+		<h2>3. Conclusão</h2>
+
+		<p>
+			A partir das informações listadas nesta pesquisa, pode-se observar que foram desenvolvidos inúmeros métodos para tentar atacar os dados dos usuários na internet. Entretanto, a maioria é voltada para tentativas de enganá-los e não necessariamente de invasão dos programas diretamente. 
+	    </p>
+		<p>
+			Dessa forma, o mecanismo de proteção mais eficaz para os usuários - que geralmente são os destinos finais dos ataques – é a própria validação e ceticismo com relação ao que lhe é enviado. Não confiar em todas as informações, verificar anexos e precaver-se de instalação de softwares desconhecidos são as melhores formas de se evitar uma infecção.
+		</p>
+
+	</div>
+
+	<hr>
+
+	<div id="referencias">
+		<h2>4.	Referências</h2>
+
+		<p>
+			<b>Segurança na Internet.</b> CERT. Disponível em: https://cartilha.cert.br/mecanismos/. Acesso em: 30 ago. 2020
+		</p>
+
+	</div>
+
 
 </body>
 </html>
