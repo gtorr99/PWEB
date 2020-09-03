@@ -1,0 +1,126 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+body
+{
+	margin: 0 auto;
+	align-items: center;
+}
+
+img
+{
+	margin-left: 200px;
+	width: 1000px;
+	height: 200px;
+
+}
+#capa
+{
+	margin: 40px;
+	border: 2px solid black;
+}
+
+#logo
+{
+	margin: auto;
+	padding: 10px;
+
+}
+
+#indice
+{
+	margin: 50px 100px 100px 100px; 
+}
+
+#introducao, #segurancaWeb, #tipoAtaque, #mecanismosSeguranca, #conclusao, #referencias
+{
+	margin-left: 60px;
+	padding: 20px;
+}
+
+h3
+{
+
+	padding: 10px;
+	text-align: center;
+}
+
+h2
+{
+	padding: 20px;
+}
+
+a
+{
+	text-decoration-line: none;
+	color: black;
+}
+
+dd
+{
+	margin-left: 15px;
+}
+
+#title
+{
+	margin: auto;
+	padding: 200px;
+	text-align: center;
+}
+
+.profDados, .aluno
+{
+	text-align: right;
+	padding-right: 100px;
+}
+
+.aluno
+{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.data
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+p
+{
+	margin-left: 30px;
+	padding: 10px;
+	width: 1000px;
+	text-align: justify;
+}
+
+dt
+{
+	padding: 5px;
+}
+
+hr
+{
+	margin: 50px;
+	color: gray;
+}
+
+a:hover
+{
+	color: darkblue;
+}
+
+ul
+{
+	margin-left: 100px;
+}
+li
+{
+	padding: 10px;
+}
