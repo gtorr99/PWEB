@@ -19,29 +19,6 @@ img
 	height: 200px;
 
 }
-#capa
-{
-	margin: 40px;
-	border: 2px solid black;
-}
-
-#logo
-{
-	margin: auto;
-	padding: 10px;
-
-}
-
-#indice
-{
-	margin: 50px 100px 100px 100px; 
-}
-
-#introducao, #segurancaWeb, #tipoAtaque, #mecanismosSeguranca, #conclusao, #referencias
-{
-	margin-left: 60px;
-	padding: 20px;
-}
 
 h3
 {
@@ -64,32 +41,6 @@ a
 dd
 {
 	margin-left: 15px;
-}
-
-#title
-{
-	margin: auto;
-	padding: 200px;
-	text-align: center;
-}
-
-.profDados, .aluno
-{
-	text-align: right;
-	padding-right: 100px;
-}
-
-.aluno
-{
-	margin-top: 40px;
-	margin-bottom: 60px;
-}
-
-.data
-{
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 20px;
 }
 
 p
@@ -123,4 +74,54 @@ ul
 li
 {
 	padding: 10px;
+}
+
+#capa
+{
+	margin: 40px;
+	border: 2px solid black;
+}
+
+#logo
+{
+	margin: auto;
+	padding: 10px;
+
+}
+
+#indice
+{
+	margin: 50px 100px 100px 100px; 
+}
+
+#title
+{
+	margin: auto;
+	padding: 200px;
+	text-align: center;
+}
+
+#introducao, #segurancaWeb, #tipoAtaque, #mecanismosSeguranca, #conclusao, #referencias
+{
+	margin-left: 60px;
+	padding: 20px;
+}
+
+.profDados, .aluno
+{
+	text-align: right;
+	padding-right: 100px;
+}
+
+.aluno
+{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.data
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
