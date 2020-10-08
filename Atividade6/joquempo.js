@@ -1,21 +1,26 @@
+var machinePlayer
+var humanPlayer
 
-do
-    var humanPlayer = prompt(
-                                "Escolha o número e desafie a sorte!:      \
-                                \n 1 - Pedra   \
-                                \n 2 - Papel   \
-                                \n 3 - Tesoura \
-                            ");
+do{
 
-while(checkNumber(humanPlayer))
 
-result(humanPlayer,machineChoice());
+    do
+        humanPlayer =     prompt(
+                                    "Escolha o número e desafie a sorte!:      \
+                                    \n 1 - Pedra   \
+                                    \n 2 - Papel   \
+                                    \n 3 - Tesoura \
+                                ");
 
-var stop = prompt("Deseja continuar? \
-                   \n 1 - Sim        \
-                   \n 0 - Não        \
-                 ")
+    while(checkNumber(humanPlayer))
 
+    result(humanPlayer,machineChoice());
+
+    var stop = prompt("Deseja continuar? \
+                    \n 1 - Sim        \
+                    \n 0 - Não        \
+                    ")
+}while(stop == "1" && !checkNumber(stop))
 
 function checkNumber(number){
     if (isNaN(number)){
@@ -27,24 +32,20 @@ function checkNumber(number){
 
 function machineChoice() {
 
-    var machinePlayer = Math.random();
+    machinePlayer = Math.random();
 
-    switch (machinePlayer) {
 
-        case machinePlayer > 0.7:
+        if(machinePlayer > 0.7)
             machinePlayer = 1
-            break
 
-        case machinePlayer > 0.4:
+        else if (machinePlayer > 0.4)
             machinePlayer = 2
-            break
 
-        case machinePlayer < 0.4:
+        else
             machinePlayer = 3
-            break
-    }
-    var t = choice(machinePlayer)
-    alert("Computador escolheu: " + t)
+
+    alert("Você escolheu: " + choice(parseInt(humanPlayer))
+        +"\nComputador escolheu: " + choice(machinePlayer))
     return machinePlayer
 }
 
@@ -82,13 +83,13 @@ function result(human, machine) {
 function win(winner){
     switch(winner){
         case "human":
-            alert(choice(machinePlayer) + " + " + choice(humanPlayer) + " = Você venceu!")
+            alert(choice(machinePlayer) + " + " + choice(parseInt(humanPlayer)) + " = Você venceu!")
             break
         case "machine":
-            alert(choice(machinePlayer) + " + " + choice(humanPlayer) + " = Você perdeu!")
+            alert(choice(machinePlayer) + " + " + choice(parseInt(humanPlayer)) + " = Você perdeu!")
             break
         case "0":
-            alert(choice(machinePlayer) + " + " + choice(humanPlayer) + " = Empate!")
+            alert(choice(machinePlayer) + " + " + choice(parseInt(humanPlayer)) + " = Empate!")
             break
     }
 }
