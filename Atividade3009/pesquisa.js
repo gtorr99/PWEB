@@ -3,7 +3,7 @@ var idade = []
 var sexo = []
 var opiniao = []
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 45; i++) {
 
     idade.push(prompt("Informe sua idade: "));
     sexo.push(prompt("Informe seu sexo: "));
