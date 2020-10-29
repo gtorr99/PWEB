@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: black;
+}
+
+img{
+    margin: 50px 600px;
+}
+
+h2{
+    margin: 0px 600px;
+    color: white;
+}
