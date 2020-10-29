@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+</head>
+<body>
+    <label>Insira o texto:</label>
+    <input id="textBox" type="text" name="texto" value="" size=40>
+    
+    <br>
+    <br>
+
+    <label style="padding-left: 120px">UpperCase:</label> 
+    <input type="checkbox" id="upp" onclick="handle_upp()">
+
+    <label style="padding-left: 20px">LowerCase:</label>
+    <input type="checkbox" id="low" onclick="handle_low()">
+    <script>
+        
+        var chkUpp = document.getElementById("upp");
+        var chkLow = document.getElementById("low");
+        
+        function handle_upp() {
+            chkLow.checked = false;
+            var text = document.getElementById("textBox").value;
+            document.getElementById("textBox").value = text.toUpperCase();
+        }
+
+        function handle_low() {
+            chkUpp.checked = false;
+            var text = document.getElementById("textBox").value;
+            document.getElementById("textBox").value = text.toLowerCase();
+        }
+
+    </script>
+</body>
+</html>
