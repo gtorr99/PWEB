@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#header{
+    position: absolute;
+    width: 1400px;
+    height: 150px;
+    margin-left: 420px;
+    box-shadow: 5px 5px 2px rgb(209, 209, 209);
+    background-color: white;
+}
+
+h2{
+    font-size: 4em;
+    padding: 35px 0px 0px 40px;
+}
