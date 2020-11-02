@@ -1,0 +1,48 @@
+#slide{
+    float: left;
+    position: relative;  
+    margin: 200px 0px 0px 20px;
+    width: 1300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px grey;
+    background-image: url('../../images/star_sky.jpg');
+}
+
+#container{
+    display: flex;
+    
+}
+
+.btn, .btn:visited{
+    font-size: 4em;
+    border: none;
+    outline: none;
+    background-color: none;
+    color: grey;
+    margin-top: 250px;
+    background: none;
+}
+
+.btn:hover{
+    text-shadow: 2px 2px 2px grey;
+    color: black;
+    border: none;
+}
+
+#btn-previous{
+    margin-left: 10px;
+    
+}
+
+#btn-next{
+    margin-right: 10px;
+}
+
+#content{
+    width: 1140px;
+    height: 500px;
+    margin: 50px 30px 0px 30px;
+    box-shadow: 8px 8px 2px grey;
+    background-color: rgb(248, 244, 244);
+}
