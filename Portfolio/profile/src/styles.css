@@ -5,5 +5,7 @@
 }
 
 body{
-    background-color: rgb(236, 242, 251);
+    /* background-image: url('./images/a.gif'); */
+    background-image: url('./images/star_sky.jpg');
+    /* background-size: 100%; */
 }

@@ -6,10 +6,20 @@ h2{
 }
 
 #atCenter{
-    margin-top: 180px;
+    margin-top: 50px;
     font-size: 2em;
 }
 
+.texto-centro{
+    font-size: 5em;
+    align-content: center;
+    margin-top: 180px;
+}
+
+.cor-texto{
+    color: yellow;
+    text-decoration: none;
+}
 ul{
     list-style-type: none;
     font-size: 30px;
@@ -17,11 +27,24 @@ ul{
     padding-top: 20px;
 }
 
+ol{
+    margin-left: 60px;
+}
+
 p{
-    padding: 12px;
+    padding: 5px;
 }
 
 hr{
     margin: 15px 60px 10px 60px;
     color: rgb(122, 118, 120);
+}
+
+h2,
+p,
+ol,
+ul,
+li
+{
+    color:yellow;
 }

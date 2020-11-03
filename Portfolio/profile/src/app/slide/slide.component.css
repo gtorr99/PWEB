@@ -5,8 +5,8 @@
     width: 1300px;
     height: 600px;
     border-radius: 10px;
-    box-shadow: 10px 10px 3px grey;
-    background-image: url('../../images/star_sky.jpg');
+    box-shadow: 10px 10px 3px rgb(36, 186, 255);;
+    /* background-image: url('../../images/star_sky.jpg'); */
 }
 
 #container{
@@ -43,6 +43,8 @@
     width: 1140px;
     height: 500px;
     margin: 50px 30px 0px 30px;
-    box-shadow: 8px 8px 2px grey;
-    background-color: rgb(248, 244, 244);
+    box-shadow: 8px 8px 2px rgb(36, 186, 255);
+    background-image: url('../../images/a.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
