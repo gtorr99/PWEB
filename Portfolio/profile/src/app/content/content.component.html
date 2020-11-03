@@ -1,19 +1,14 @@
-<div h2 *ngIf="sl.index === 0" id="atCenter"><h2>Bom dia!</h2></div>
+<div h2 *ngIf="sl.index === 0" id="atCenter">
+    <h2>
+        Olá! <br>
+        Seja Bem vindo(a) a uma <br>
+        galáxia muito,
+        muito distante...
+    </h2>
+</div>
 
 <div *ngIf="sl.index === 1">
-    <h2>Trajetória</h2>
-    <hr>
-    <ul>
-        <li>
-            <p>- Início: Curso para Medicina</p>
-        </li>
-        <li>
-            <p>- Metade: Mecatrônica</p>
-        </li>
-        <li>
-            <p>- Reinício: Análise e Desenvolvimento de Sistemas</p>
-        </li>
-    </ul>
+    <h2>Meu Portfolio Web</h2>
 </div>
 
 <div *ngIf="sl.index === 2">
@@ -21,57 +16,77 @@
     <hr>
     <ul>
         <li>
-            <p>- Flex: suporte BaaN</p>
+            <p> Empresa: Flex </p>
         </li>
         <li>
-            <p>- Contato com: </p>
+            <p> Cargo: Estagiário </p>
         </li>
         <li>
-            <p> > SOX/SOD</p>
+            <p>Conhecimentos desenvolvidos: </p>
         </li>
-        <li>
-            <p> > Unix</p>
-        </li>
-        <li>
-            <p> > Oracle: queries SQL</p>
-        </li>
-        <li>
-            <p> > Macros, Excel</p>
-        </li>
+        <ol>
+            <li>
+                <p> SOX/SOD</p>
+            </li>
+            <li>
+                <p> Unix</p>
+            </li>
+            <li>
+                <p> Oracle: queries SQL</p>
+            </li>
+            <li>
+                <p> Macros, Excel</p>
+            </li>
+        </ol>
     </ul>
 </div>
 
-<div  *ngIf="sl.index === 3">
-    <h2>Objetivos</h2>
+<div *ngIf="sl.index === 3">
+    <h2>Carreira</h2>
     <hr>
     <ul>
         <li>
-            <p>- Padawan</p>
+            <p> Empresa: Fit (atual) </p>
         </li>
         <li>
-            <p>- Experiência em Desenvolvimento</p>
+            <p> Cargo: Assistente de Tecnologia </p>
         </li>
         <li>
-            <p>- Especializar nas Tecnologias do Mercado</p>
+            <p>Conhecimentos desenvolvidos: </p>
         </li>
+        <ol>
+            <li>
+                <p> C/C++ em embarcados</p>
+            </li>
+            <li>
+                <p> Python</p>
+            </li>
+            <li>
+                <p> Amazon Cloud Services (AWS) </p>
+            </li>
+        </ol>
     </ul>
 </div>
+
 
 <div  *ngIf="sl.index === 4">
-    <h2>Alguns conhecimentos</h2>
+    <h2>Conhecimentos Técnicos</h2>
     <hr>
     <ul>
         <li>
-            <p>- Banco de Dados Relacional</p>
+            <p>- Banco de Dados Relacional (Oracle, MySQL, SQL Server)</p>
         </li>
         <li>
             <p>- Linux/Unix</p>
         </li>
         <li>
-            <p>- POO: Java, C#, Kotlin</p>
+            <p>- POO: Java, Python, C#, Kotlin</p>
         </li>
         <li>
-            <p>- HTML, CSS, Angular</p>
+            <p>- C/C++ </p>
+        </li>
+        <li>
+            <p>- HTML5, CSS3, Angular</p>
         </li>
         <li>
             <p>- Ingles intermediário</p>
@@ -82,48 +97,25 @@
     </ul>
 </div>
 
-<div  *ngIf="sl.index === 5">
-    <h2>Interesses</h2>
+<div *ngIf="sl.index === 5">
+    <h2>Contatos</h2>
     <hr>
+    <h3>Para mais informações:</h3>
     <ul>
         <li>
-            <p>- Dev Back End</p>
+            <p><a href="https://github.com/gtorres17">Github</a></p>
         </li>
         <li>
-            <p>- Manipulação de Dados</p>
+            <p>
+                <a href="linkedin.com/in/gabriel-guimarães-a3218615b">
+                LinkedIn</a>
+            </p>
         </li>
         <li>
-            <p>- Dev Mobile</p>
-        </li>
-        <li>
-            <p>- Automação de Processos</p>
-        </li>
-        <li>
-            <p>- Segurança da Informação</p>
-        </li>
-        <li>
-            <p>- Star Wars</p>
+            <p>gtguimaraes99@outlook.com</p>
         </li>
     </ul>
 </div>
 
-<div  *ngIf="sl.index === 6">
-    <h2>Hobbies</h2>
-    <hr>
-    <ul>
-        <li>
-            <p>- Ler(de filosofia à ficção científica)</p>
-        </li>
-        <li>
-            <p>- Tocar violão/guitarrar (arranhar!)</p>
-        </li>
-        <li>
-            <p>- Netflix em dia (MI)</p>
-        </li>
-        <li>
-            <p>- Programar...debugar...debugar..compilar sem erros (nem warnings!)</p>
-        </li>
-    </ul>
-</div>
 
-<div h2 *ngIf="sl.index === 7" id="atCenter"><h2>Obrigado!</h2></div>
+
