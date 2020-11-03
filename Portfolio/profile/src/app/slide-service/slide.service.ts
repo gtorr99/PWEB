@@ -1,12 +1,15 @@
 export class SlideService{
     
     index = 0;
+    MAX = 6;
 
     incrementIndex(){
-        this.index++;
+        if(this.index < this.MAX)
+            this.index++;
     }
 
     decrementIndex(){
-        this.index--;
+        if(this.index > 0)
+            this.index--;
     }
 }
